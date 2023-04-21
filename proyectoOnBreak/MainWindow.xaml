@@ -9,11 +9,11 @@
         mc:Ignorable="d"
         Title="Eventos OnBreak" Height="450" Width="800">
     <Grid>
-        <Button x:Name="BtnAdminCli" Content="Administración de Clientes" HorizontalAlignment="Left" Margin="73,86,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="Button_Click"/>
-        <Button x:Name="BtnLisCli" Content="Listado de clientes" HorizontalAlignment="Left" Margin="511,86,0,0" VerticalAlignment="Top" Width="185" Height="82" RenderTransformOrigin="0.488,0.532" Click="BtnLisCli_Click"/>
-        <Button x:Name="BtnAdminCont" Content="Administración de contratos" HorizontalAlignment="Left" Margin="73,238,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="BtnAdminCont_Click"/>
-        <Button x:Name="BtnListCont" Content="Listado de contratos " HorizontalAlignment="Left" Margin="511,238,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="BtnListCont_Click"/>
-        <Image Margin="703,10,9.6,338" Source="fotor_2023-4-20_23_35_57.jpg" Stretch="Fill"/>
+        <Button x:Name="BtnAdminCli" Content="Administración de Clientes" HorizontalAlignment="Left" Margin="164,115,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="Button_Click"/>
+        <Button x:Name="BtnLisCli" Content="Listado de clientes" HorizontalAlignment="Left" Margin="407,115,0,0" VerticalAlignment="Top" Width="186" Height="82" RenderTransformOrigin="0.488,0.532" Click="BtnLisCli_Click"/>
+        <Button x:Name="BtnAdminCont" Content="Administración de contratos" HorizontalAlignment="Left" Margin="164,238,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="BtnAdminCont_Click"/>
+        <Button x:Name="BtnListCont" Content="Listado de contratos " HorizontalAlignment="Left" Margin="407,238,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="BtnListCont_Click"/>
+        <Image Margin="702,10,10,338" Source="fotor_2023-4-20_23_35_57.jpg" Stretch="Fill"/>
 
     </Grid>
 </Window>

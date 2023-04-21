@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proyectoOnBreak"
         mc:Ignorable="d"
-        Title="Window5" Height="450" Width="800">
+        Title="Registrar" Height="450" Width="800">
     <Grid>
         <Grid Margin="0,0,9.6,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="43*"/>
                 <ColumnDefinition Width="751*"/>
             </Grid.ColumnDefinitions>
-            <Label Content="Nombre Completo :" HorizontalAlignment="Left" Margin="28.489,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.475,0.315" Height="28" Width="116" Grid.Column="1"/>
-            <Label Content="Rut" HorizontalAlignment="Left" Margin="28.489,97,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+            <Label Content="Nombre Completo:" HorizontalAlignment="Left" Margin="28.489,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.475,0.315" Height="28" Width="116" Grid.Column="1"/>
+            <Label Content="RUT:" HorizontalAlignment="Left" Margin="28.489,97,0,0" VerticalAlignment="Top" Grid.Column="1"/>
             <Label Content="Sexo:" HorizontalAlignment="Left" Margin="28.489,157,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-            <Label Content="Número de teléfono:" HorizontalAlignment="Left" Margin="28.489,214,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+            <Label Content="Número de Teléfono:" HorizontalAlignment="Left" Margin="28.489,214,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
             <Label Content="Correo:" HorizontalAlignment="Left" Margin="28.489,262,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="174.489,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="437" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="174.489,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="437" Grid.Column="1"/>

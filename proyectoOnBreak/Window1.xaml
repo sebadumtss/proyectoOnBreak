@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proyectoOnBreak"
         mc:Ignorable="d"
-        Title="Administración de clientes" Height="450" Width="800">
+        Title="Administración de Clientes" Height="450" Width="800">
     <Grid>
-        <Label Content="Buscar por rut" HorizontalAlignment="Left" Margin="346,37,0,0" VerticalAlignment="Top"/>
+        <Label Content="Buscar por RUT" HorizontalAlignment="Left" Margin="346,37,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="336,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Buscar" HorizontalAlignment="Left" Margin="336,108,0,0" VerticalAlignment="Top" Width="120"/>
         <Button Content="Registrar nuevo cliente" HorizontalAlignment="Left" Margin="310,216,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="-0.271,-0.862" Height="66" Click="Button_Click"/>
