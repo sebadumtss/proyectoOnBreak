@@ -1,0 +1,19 @@
+﻿<Window x:Class="proyectoOnBreak.MainWindow"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proyectoOnBreak"
+        mc:Ignorable="d"
+        Title="Eventos OnBreak" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BtnAdminCli" Content="Administración de Clientes" HorizontalAlignment="Left" Margin="73,86,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="Button_Click"/>
+        <Button x:Name="BtnLisCli" Content="Listado de clientes" HorizontalAlignment="Left" Margin="511,86,0,0" VerticalAlignment="Top" Width="185" Height="82" RenderTransformOrigin="0.488,0.532" Click="BtnLisCli_Click"/>
+        <Button x:Name="BtnAdminCont" Content="Administración de contratos" HorizontalAlignment="Left" Margin="73,238,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="BtnAdminCont_Click"/>
+        <Button x:Name="BtnListCont" Content="Listado de contratos " HorizontalAlignment="Left" Margin="511,238,0,0" VerticalAlignment="Top" Width="185" Height="82" Click="BtnListCont_Click"/>
+        <Image Margin="703,10,9.6,338" Source="fotor_2023-4-20_23_35_57.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>
