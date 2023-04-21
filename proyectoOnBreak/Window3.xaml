@@ -18,7 +18,7 @@
             <Label Content="Fecha evento: " HorizontalAlignment="Left" Margin="365,61,0,0" VerticalAlignment="Top"/>
             <DatePicker HorizontalAlignment="Left" Margin="456,62,0,0" VerticalAlignment="Top" Height="59" Width="147"/>
             <Label Content="Tipo de evento:&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,146,0,0" Height="29"/>
-            <ComboBox HorizontalAlignment="Left" Margin="135,153,0,0" VerticalAlignment="Top" Width="120"/>
+            <ComboBox x:Name="cboxTipEvento" HorizontalAlignment="Left" Margin="135,153,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
             <Label Content="Modalidad de evento:" HorizontalAlignment="Left" Margin="325,146,0,0" VerticalAlignment="Top"/>
             <ComboBox HorizontalAlignment="Left" Margin="456,153,0,0" VerticalAlignment="Top" Width="120"/>
             <Image Margin="703,10,10,338" Source="fotor_2023-4-20_23_35_57.jpg" Stretch="Fill"/>

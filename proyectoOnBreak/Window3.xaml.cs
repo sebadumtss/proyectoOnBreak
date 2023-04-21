@@ -23,5 +23,12 @@ namespace proyectoOnBreak
         {
             InitializeComponent();
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            cboxTipEvento.Items.Add("Opción 1");
+            cboxTipEvento.Items.Add("Opción 2");
+            cboxTipEvento.Items.Add("Opción 3");
+        }
     }
 }

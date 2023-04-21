@@ -23,5 +23,21 @@ namespace proyectoOnBreak
         {
             InitializeComponent();
         }
+        private List<string> lista = new List<string>();
+
+        private void btnMostrarLista_Click(object sender, RoutedEventArgs e)
+        {
+            // Agrega algunos elementos a la lista
+            lista.Add("Elemento 1");
+            lista.Add("Elemento 2");
+            lista.Add("Elemento 3");
+
+            // Asigna la lista al ListView
+            lvLista.ItemsSource = lista;
+
+            // Muestra el ListView
+            lvLista.Visibility = Visibility.Visible;
+        }
+        
     }
 }
