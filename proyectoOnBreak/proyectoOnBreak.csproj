@@ -148,5 +148,11 @@
   <ItemGroup>
     <Resource Include="descargar.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1663541461858694.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1663796944808924.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
