@@ -6,37 +6,36 @@
         xmlns:local="clr-namespace:proyectoOnBreak"
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="proyectoOnBreak.Window1"
         mc:Ignorable="d"
-        Title="Administración de clientes" Height="450" Width="800">
+        Title="Administración de Clientes" Height="450" Width="800">
     <Grid>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="639,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Buscar por rut" HorizontalAlignment="Left" Margin="639,41,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Buscar por Rut" HorizontalAlignment="Left" Margin="639,41,0,0" VerticalAlignment="Top" Width="120"/>
         <Image Margin="10,10,702.6,338" Source="fotor_2023-4-20_23_35_57.jpg" Stretch="Fill"/>
         <Grid Margin="10,-11,-0.4,11">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="43*"/>
                 <ColumnDefinition Width="751*"/>
             </Grid.ColumnDefinitions>
-            <Label Content="Nombre Cliente :" HorizontalAlignment="Left" Margin="15.6,122,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.475,0.315" Height="28" Width="116" Grid.Column="1"/>
-            <Label Content="Rut Cliente :" HorizontalAlignment="Left" Margin="15.6,172,0,0" VerticalAlignment="Top" Grid.Column="1" Width="92"/>
-            <Label Content="Razón Social :" HorizontalAlignment="Left" Margin="15.6,219,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
-            <Label Content="Número de teléfono :" HorizontalAlignment="Left" Margin="15.6,265,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+            <Label Content="Nombre Cliente:" HorizontalAlignment="Left" Margin="15.6,122,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.475,0.315" Height="28" Width="116" Grid.Column="1"/>
+            <Label Content="Rut Cliente:" HorizontalAlignment="Left" Margin="15.6,172,0,0" VerticalAlignment="Top" Grid.Column="1" Width="92"/>
+            <Label Content="Razón Social:" HorizontalAlignment="Left" Margin="15.6,219,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+            <Label Content="Número de Teléfono:" HorizontalAlignment="Left" Margin="15.6,265,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="136.6,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="136.6,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="136.6,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1" TextChanged="TextBox_TextChanged"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="136.6,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1"/>
             <Button Content="Registrar &#xD;&#xA;Cliente" HorizontalAlignment="Left" Margin="318.6,341,0,0" VerticalAlignment="Top" Width="93" Height="45" Grid.Column="1"/>
             <Button Content="VOLVER &#xD;&#xA;ATRÁS&#xD;&#xA;" HorizontalAlignment="Left" Margin="602.6,341,0,0" VerticalAlignment="Top" Width="95" Height="45" Grid.Column="1" Click="Button_Click" RenderTransformOrigin="0.483,0.497"/>
-            <Label Content="Correo :" HorizontalAlignment="Left" Margin="365.6,124,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+            <Label Content="Correo:" HorizontalAlignment="Left" Margin="365.6,124,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="510.6,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1"/>
-            <Label Content="Dirección :" HorizontalAlignment="Left" Margin="365.6,172,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+            <Label Content="Dirección:" HorizontalAlignment="Left" Margin="365.6,172,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="510.6,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1"/>
-            <Label Content="Tipo de Empresa :" HorizontalAlignment="Left" Margin="365.6,219,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+            <Label Content="Tipo de Empresa:" HorizontalAlignment="Left" Margin="365.6,219,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="510.6,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1"/>
-            <Label Content="Actividad Empresa :" HorizontalAlignment="Left" Margin="365.6,265,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+            <Label Content="Actividad Empresa:" HorizontalAlignment="Left" Margin="365.6,265,0,0" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
             <TextBox HorizontalAlignment="Left" Height="23" Margin="510.6,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Grid.Column="1"/>
             <Button Content="Listado &#xD;&#xA;Clientes" HorizontalAlignment="Left" Margin="15.6,341,0,0" VerticalAlignment="Top" Width="93" Height="45" Grid.Column="1"/>
 
         </Grid>
-
     </Grid>
 </Window>
