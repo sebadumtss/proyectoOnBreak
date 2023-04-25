@@ -30,5 +30,19 @@ namespace proyectoOnBreak
             cboxTipEvento.Items.Add("Opción 2");
             cboxTipEvento.Items.Add("Opción 3");
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Cerrar la ventana actual
+            this.Close();
+
+            // Mostrar la ventana principal
+            Application.Current.MainWindow.Show();
+        }
     }
 }

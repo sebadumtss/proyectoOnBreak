@@ -24,10 +24,18 @@ namespace proyectoOnBreak
             InitializeComponent();
         }
 
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // Código para manejar el evento
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window5 ventanaWindow5 = new Window5();
-            ventanaWindow5.ShowDialog();
+            // Cerrar la ventana actual
+            this.Close();
+
+            // Mostrar la ventana principal
+            Application.Current.MainWindow.Show();
         }
     }
 }

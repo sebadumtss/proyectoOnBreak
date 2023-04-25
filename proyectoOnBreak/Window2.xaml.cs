@@ -28,9 +28,9 @@ namespace proyectoOnBreak
         private void btnMostrarLista_Click(object sender, RoutedEventArgs e)
         {
             // Agrega algunos elementos a la lista
-            lista.Add("Elemento 1");
-            lista.Add("Elemento 2");
-            lista.Add("Elemento 3");
+            lista.Add("Nombre Empresa: Río Bueno - Rut Empresa: 96838800‑2 - Número de teléfono: 975648378 -  Correo: rio.bueno@gmail.com");
+            lista.Add("Nombre Empresa: San Carlos - Rut Empresa: 99581960‑0 -  Número de teléfono: 985736583 -  Correo: scarlos@gmail.com ");
+            lista.Add("Nombre Empresa: Sotrasal -  Rut Empresa: 70016330‑K -  Número de teléfono: 985739643 - Correo: sotrasal@gmail.com");
 
             // Asigna la lista al ListView
             lvLista.ItemsSource = lista;
