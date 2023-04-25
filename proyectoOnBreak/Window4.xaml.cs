@@ -23,6 +23,21 @@ namespace proyectoOnBreak
         {
             InitializeComponent();
         }
+        private List<string> lista = new List<string>(); 
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            // Agrega algunos elementos a la lista
+            lista.Add("123456789 GreenPeace Ramiro Nemesio ramiro@gmail.com Los Ramiros 12345 12345678 Chilex Rotary Mineria");
+            lista.Add("123456780 Global66   Eustacio Valdi eustacio@mail.com Villa Eustacio 1 12341234 Finanzas Global 666");
+            lista.Add("123456781 TechCorpo  Rani Yawazaki  kawaiigirl@mail.com Ueno Street 12 98765432 Kawaii Sega Japan 12");
+
+            // Asigna la lista al ListView
+            lvListaContrato.ItemsSource = lista;
+
+            // Muestra el ListView
+            lvListaContrato.Visibility = Visibility.Visible;
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {

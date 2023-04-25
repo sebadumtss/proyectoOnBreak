@@ -12,10 +12,10 @@
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
-        <Button x:Name="BtnAdminCli" Content="Administración de Clientes" HorizontalAlignment="Left" Margin="107,72,0,0" VerticalAlignment="Top" Width="282" Height="150" Click="Button_Click" FontSize="18" FontFamily="Calibri"/>
-        <Button x:Name="BtnLisCli" Content="Listado de Clientes" HorizontalAlignment="Left" Margin="418,72,0,0" VerticalAlignment="Top" Width="280" Height="150" RenderTransformOrigin="0.488,0.532" Click="BtnLisCli_Click" FontSize="18" FontFamily="Calibri"/>
-        <Button x:Name="BtnAdminCont" Content="Administración de Contratos" HorizontalAlignment="Left" Margin="107,238,0,0" VerticalAlignment="Top" Width="282" Height="156" Click="BtnAdminCont_Click" FontSize="18" FontFamily="Calibri"/>
-        <Button x:Name="BtnListCont" Content="Listado de Contratos " HorizontalAlignment="Left" Margin="418,238,0,0" VerticalAlignment="Top" Width="280" Height="156" Click="BtnListCont_Click" FontSize="18" FontFamily="Calibri"/>
+        <Button x:Name="BtnAdminCli" Content="Administración de Clientes" HorizontalAlignment="Left" Margin="98,66,0,0" VerticalAlignment="Top" Width="282" Height="150" Click="Button_Click" FontSize="18" FontFamily="Calibri"/>
+        <Button x:Name="BtnLisCli" Content="Listado de Clientes" HorizontalAlignment="Left" Margin="418,66,0,0" VerticalAlignment="Top" Width="280" Height="150" RenderTransformOrigin="0.488,0.532" Click="BtnLisCli_Click" FontSize="18" FontFamily="Calibri"/>
+        <Button x:Name="BtnAdminCont" Content="Administración de Contratos" HorizontalAlignment="Left" Margin="98,232,0,0" VerticalAlignment="Top" Width="282" Height="156" Click="BtnAdminCont_Click" FontSize="18" FontFamily="Calibri"/>
+        <Button x:Name="BtnListCont" Content="Listado de Contratos " HorizontalAlignment="Left" Margin="418,232,0,0" VerticalAlignment="Top" Width="280" Height="156" Click="BtnListCont_Click" FontSize="18" FontFamily="Calibri"/>
         <Image Margin="703,10,9.6,338" Source="fotor_2023-4-20_23_35_57.jpg" Stretch="Fill"/>
 
     </Grid>
