@@ -38,6 +38,14 @@ namespace proyectoOnBreak
             // Muestra el ListView
             lvLista.Visibility = Visibility.Visible;
         }
-        
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Cerrar la ventana actual
+            this.Close();
+
+            // Mostrar la ventana principal
+            Application.Current.MainWindow.Show();
+        }
     }
 }

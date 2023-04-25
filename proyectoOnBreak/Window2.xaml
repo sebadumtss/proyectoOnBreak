@@ -10,6 +10,7 @@
         <Image Margin="703,10,9.6,338" Source="fotor_2023-4-20_23_35_57.jpg" Stretch="Fill"/>
         <Button x:Name="btnMostrarLista" Content="Mostrar clientes inscritos" Click="btnMostrarLista_Click" Margin="271,38,265.6,325"/>
         <ListView x:Name="lvLista" Visibility="Collapsed"/>
+        <Button Content="VOLVER" HorizontalAlignment="Left" Margin="662,359,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
     </Grid>
 </Window>

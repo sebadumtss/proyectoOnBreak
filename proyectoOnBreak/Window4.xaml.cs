@@ -23,5 +23,14 @@ namespace proyectoOnBreak
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Cerrar la ventana actual
+            this.Close();
+
+            // Mostrar la ventana principal
+            Application.Current.MainWindow.Show();
+        }
     }
 }
